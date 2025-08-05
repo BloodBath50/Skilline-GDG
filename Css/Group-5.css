@@ -1,0 +1,52 @@
+.Group-5{
+    padding: 50px 100px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-align: left;
+    position: relative;
+}
+
+.Group-5-text{
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.Group-5-text h3{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #2F327D;
+    text-align: left;
+}
+
+
+.Group-5-text p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.Group-5-img{
+    flex: 1;
+    text-align: center;
+}
+
+
+.Group-5-img img{
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    transition: all .55s ease;
+}
+
+.Group-5-img img:hover{
+    max-width: 700px;
+}
